@@ -13,7 +13,7 @@ body {
   background: #636160;
   background-image: url(image_path('grass.jpg'));
 background-size: 100%;
-  color: black;
+  color: #FEFE3C;
   font: 1em 'PT Sans', sans-serif;
   margin: 0px;
 
@@ -25,17 +25,65 @@ background-size: 100%;
   background-color: #F87911;
 }
 
-.rightbar {
+.rightbar { 
   position: fixed;
   left: 0px;
   top: 0px;
   width: 70px;
   height: 100%;
   margin-right: 5px;
+  padding-top: 15px;
 
-  background-color: #C9081A;
+  background-color: #fe3c3c;
+}
+    .iconbar {
+      width: 60px;
+      margin:  5px;
+    }
+
+    .navigation > input {
+  display: none;
+}
+   
+    .navigation > label > .backgroundlabel{
+      background-color: none;
+      cursor: pointer;
+    }
+
+
+.contactlink > a {
+  width: 70px;
+  height: 70px;
+
 }
 
+     .contactlink > a :hover {
+
+      background-color: rgba(87, 204, 204, 0.7);
+      border-radius: 6px;
+    }
+
+
+
+    .testblock > label {
+      width: 70px;
+      height: 70px;
+    }
+
+    .testblock > label:hover {
+      background-color: gold;
+
+    }
+
+  .backgroundlabel:active {
+  background-color: #fe3c3c;
+} 
+
+
+  .barcontacts {
+    position: absolute;
+    bottom: 15px;
+  }
 
 .allbody {
       width: auto;
@@ -82,10 +130,11 @@ background-size: 100%;
 
 .block {
   width: 100%;
-  height: 350px;
-  padding: 5px 10px;
-  margin: 10px;
-  border: 2px solid black;
+  height: auto;
+  margin: 20px 0px;
+  padding: 15px;
+
+  background-color: rgba(87, 204, 204, 0.7);
 }
     .block > p {
       padding: 10px;
@@ -162,8 +211,8 @@ background-size: 100%;
   margin-top: -20px;
   line-height: 1.4em;
   opacity: 0;
-  background-color: rgba(17, 67, 137, 0.5);
-      color: #E8E741;
+  background-color: rgba(87, 204, 204, 0);
+      color: #FEFE3C;
   transform: rotateY(20deg);
   transform-origin: left center;
   transition: opacity .3s, transform 1s;
@@ -184,6 +233,51 @@ background-size: 100%;
 }
 
 
+.homeinfo {
+}
+
+    .olichkafoto{
+      width: 250px;
+      height:auto;
+      float: left;
+    }
+
+.wingsinfo{
+  width: 100%;
+  height: auto;
+  margin: 20px 0px;
+  padding: 15px;
+
+  background-color: rgba(87, 204, 204, 0.7);
+}
+    .wingsfoto {
+      height: 100px;
+    }
+    .wingsinfofoto{
+      height: 100%;
+      
+    }
+
+
+
+
+.map {
+  width: 100%;
+  height: auto;
+  background-color: rgba(87, 204, 204, 0.7);
+
+}
+
+    .contactlinks {
+       
+      text-align: center;
+    }
+       .contacticon {
+         width: 90px;
+         height: 90px;
+          margin: 0px 15px;
+       
+        }
 
 
 /* SLiDERS!!!!!!!!!!!!!!!!!!!!!! */
