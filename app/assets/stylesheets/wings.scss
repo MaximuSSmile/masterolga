@@ -9,6 +9,8 @@
 
 @import url('https://fonts.googleapis.com/css?family=Comfortaa|Lobster');
 
+@import url('https://fonts.googleapis.com/css?family=Kalam');
+
 
 body {
   width: 100%;
@@ -88,7 +90,7 @@ background-size: 100%;
     }
     .contactlink > a :hover {
 
-      background-color: gold;
+      background-color: #FEFE3C;
       border-radius: 4px;
     }
 
@@ -289,7 +291,8 @@ background-size: 100%;
   line-height: 1.4em;
   opacity: 0;
 
-        font-family: 'Comfortaa', cursive;
+        /*font-family: 'Comfortaa', cursive;*/
+            font-family: 'Kalam', cursive;
       color: #FEFE3C;
   transform: rotateY(20deg);
   transform-origin: left center;
