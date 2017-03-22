@@ -1,10 +1,10 @@
 class PracticsController < ApplicationController
 	def welcome
-		@olichka = " HI WORLD"
+		@olichka = " WINGS "
 	end
 
 	def wings
-		@olichka = " HI WORLD"
+		@olichka = "  WINGS "
 	end
 
 end
