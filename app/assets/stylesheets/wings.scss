@@ -7,9 +7,10 @@
   box-sizing: border-box;
 }
 
+
 body {
   width: 100%;
-  height: 100%;
+  /*height: 100%;*/
   background: #636160;
   background-image: url(image_path('grass.jpg'));
 background-size: 100%;
@@ -36,16 +37,9 @@ background-size: 100%;
 
   background-color: #fe3c3c;
 
-  z-index: 100;
+  z-index: 122;
 }
-    .iconbar {
-      width: 40px;
-      margin:  5px;
-      margin-top: 10px;
-    }
-        #wingsmarg {
-          margin-top: 13px;
-        }
+
 
     .navigation > input {
   display: none;
@@ -60,6 +54,7 @@ background-size: 100%;
 .contactlink > a {
   width: 50px;
   height: 50px;
+  z-index: 121;
 
 }
 
@@ -89,12 +84,14 @@ background-size: 100%;
   .barcontacts {
     position: absolute;
     bottom: 15px;
+    z-index: 120;
   }
 
 .allbody {
 
       width: auto;
-      height: auto;
+      height: 100%;
+        overflow: auto;
       margin: 0px auto;
 
       z-index: 101;
@@ -106,7 +103,7 @@ background-size: 100%;
 
 .bottombody {
     width: calc( 100% - 50px);
-	height: auto;
+	height: 100%;
 
     padding-top: 0px;
 } 
@@ -138,11 +135,13 @@ background-size: 100%;
 
 .block {
   width: 100%;
-  height: auto;
-  margin: 20px 0px;
+  height: auto; 
+    min-height: 350px;
+      margin: 0px 0px 20px;
+    border-radius: 5px;
   padding: 15px;
 
-  background-color: rgba(87, 204, 204, 0.7);
+  background-color: rgba(131, 47, 165, 0.8);
 }
     .block > p {
       padding: 10px;
@@ -167,7 +166,44 @@ background-size: 100%;
 
       }
 
+
+
+
+
+              .-shape-outside {
+                shape-outside: circle(57%);
+                float: left;
+              }
+
+              .circle {
+                width: 200px;
+                height: 320px;
+                background-color: #fff;
+                border-radius: 1% 5% 30% 5%;
+                margin-right: 24px;
+                overflow: hidden;
+                border: 1px solid #eee;
+                img {
+                  width: 100%;
+                  height: 100%;
+                }
+              }
+
+              div {
+                text-align: justify;
+              }
+
+              .olichkafoto{
+                width: 250px;
+                height:auto;
+                float: left;
+              }
+
+
 .tabbed {
+  position: fixed;
+      height: 100%;
+
   width: 100%;
   margin: 0px auto;
 
@@ -184,6 +220,7 @@ background-size: 100%;
 }
 
 .tabbed > label {
+
       text-align: center;
       font-size: 12px;
   width: 50px;
@@ -204,35 +241,58 @@ background-size: 100%;
     font-size: 12px;
     color: #ffd700;
     background-color: #832fa5;
-    border-top: 2px solid gold;
-    border-bottom: 2px solid gold;
-  }
 
+  }
+      #borderl1 {
+          border-top: 4px solid gold;
+          border-bottom: 2px solid gold;
+      }
+      #borderl2 {
+        border-top: 2px solid gold;
+        border-bottom: 4px solid gold;
+      }
+
+    .iconbar {
+      width: 40px;
+      margin:  5px;
+      margin-top: 10px;
+    }
+        #wingsmarg1 {
+          margin-top: 13px;
+        }
+        #wingsmarg2 {
+          margin-top: 8px;
+        }
 .tabs {
   clear: both;
   perspective: 600px;
   height: 100%;
+
 }
 
 .tabs > div {
 
-  width: calc(100% - 10px);
+  width: calc(100% - 50px);
   position: absolute;
 
-  min-height: 800px;
+    height: 100%;
+    overflow: auto;
   padding: 10px ;
   
   margin-top: -120px;
-  margin-left: 60px;
+  margin-left: 50px;
   line-height: 1.4em;
   opacity: 0;
-  background-color: rgba(87, 204, 204, 0);
+  background-color: grey;
       color: #FEFE3C;
   transform: rotateY(20deg);
   transform-origin: left center;
   transition: opacity .3s, transform 1s;
   z-index: 0;
 }
+      ::-webkit-scrollbar { 
+          display: none; 
+      }
 
 #tabsheigth {
   height: 100%;
@@ -248,14 +308,6 @@ background-size: 100%;
 }
 
 
-.homeinfo {
-}
-
-    .olichkafoto{
-      width: 250px;
-      height:auto;
-      float: left;
-    }
 
 .wingsinfo{
   width: 100%;
@@ -279,7 +331,7 @@ background-size: 100%;
 .map {
   width: 100%;
   height: auto;
-  background-color: rgba(87, 204, 204, 0.7);
+  background-color: rgba(131, 47, 165, 0.8);
 
 }
 
