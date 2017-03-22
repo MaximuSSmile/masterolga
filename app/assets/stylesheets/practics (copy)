@@ -177,14 +177,24 @@ body {
 
 /* SLiDERS!!!!!!!!!!!!!!!!!!!!!! */
 
+/* SLiDERS!!!!!!!!!!!!!!!!!!!!!! */
+
+.sliderbody {
+  width: 200px;
+  height: 800px;
+  background-color: green;
+  margin: auto;
+
+} 
+
 .slidersright {
-	height: 300px;
-	width: 200px;
-	    margin-left: -40px;
+  height: 200px;
+  width: 200px;
+      margin-left: -40px;
 }
 
 .slides {
-    height: 300px;
+    height: 200px;
 
 
     overflow: hidden;
@@ -196,6 +206,7 @@ body {
       .slides ul {
           list-style:none;
           position:relative;
+          margin: 0px;
 
       }
       /* Кадры анимации #anim_slides */
@@ -358,7 +369,7 @@ body {
           padding-right: 10px;
           padding-top: 5px;
           position:absolute;
-          top: 265px;
+          top: 160px;
           width: auto;
 
 
@@ -393,7 +404,7 @@ body {
 
 
                               .slides2 {
-                                  height: 300px;
+                                  height: 200px;
 
 
                                   overflow: hidden;
@@ -405,6 +416,7 @@ body {
                                     .slides2 ul {
                                         list-style:none;
                                         position:relative;
+                                        margin: 0px;
 
                                     }
                                     /* Кадры анимации #anim_slides */
@@ -567,7 +579,7 @@ body {
                                         padding-right: 10px;
                                         padding-top: 5px;
                                         position:absolute;
-                                        top: 265px;
+                                        top: 160px;
                                         width: auto;
 
 
@@ -601,7 +613,7 @@ body {
 
 
 .slides3 {
-    height: 300px;
+    height: 200px;
 
 
     overflow: hidden;
@@ -613,6 +625,7 @@ body {
       .slides3 ul {
           list-style:none;
           position:relative;
+          margin: 0px;
 
       }
       /* Кадры анимации #anim_slides */
@@ -775,7 +788,7 @@ body {
           padding-right: 10px;
           padding-top: 5px;
           position:absolute;
-          top: 265px;
+          top: 160px;
           width: auto;
 
 
@@ -810,7 +823,7 @@ body {
 
 
                               .slides4 {
-                                  height: 300px;
+                                  height: 200px;
 
 
                                   overflow: hidden;
@@ -822,6 +835,7 @@ body {
                                     .slides4 ul {
                                         list-style:none;
                                         position:relative;
+                                        margin: 0px;
 
                                     }
                                     /* Кадры анимации #anim_slides */
@@ -984,7 +998,7 @@ body {
                                         padding-right: 10px;
                                         padding-top: 5px;
                                         position:absolute;
-                                        top: 265px;
+                                        top: 160px;
                                         width: auto;
 
 
