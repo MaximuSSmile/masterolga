@@ -379,17 +379,31 @@ background-size: 100%;
 
 
 .trick {
+  background-color: #fe3c3c;
   width: 250px;
-  height: auto;
+  height: 200px ;
   margin: 10px 15px;
   border: 2px solid gold;
+  display: inline-block;
 
 }
-  .trickfoto{
-    width: 100%
-  }
+     .tricktext {
+        width: 70px;
+        float: left;
+        display: inline-block;
+     }
+        .trick > h5{ 
+          margin: 0
+        }    
+     .trickimg {
+        display: inline-block;
+         width: 150px;
 
-
+     }
+        .trickfoto{
+          width: 146px;
+          height: 196px;
+        }
 
 
 
